@@ -17,5 +17,5 @@ jobs:
       - name: Build
         run: cd ~/dev/nick-homepage && npm run build
 
-      - name: Reload nginx
-        run: sudo systemctl reload nginx
+      - name: Reload Caddy
+        run: sudo systemctl reload caddy
